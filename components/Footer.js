@@ -1,8 +1,10 @@
+import Styles from "../styles/Footer.module.css";
+
 export default function Footer() {
   return (
-    <footer>
+    <footer className={Styles.footer}>
       <p>
-        <span>Footer</span> &copy; 2022
+        <span>PokeNext</span> &copy; 2022
       </p>
     </footer>
   );
