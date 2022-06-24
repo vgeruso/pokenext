@@ -7,10 +7,11 @@ export default function Default({ children }) {
   return (
     <>
       <Head>
+        <link rel="icon" href="/images/favicon.ico" />
         <title>PokeNext</title>
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </>
   );
